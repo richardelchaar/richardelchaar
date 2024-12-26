@@ -5,11 +5,6 @@ With a background in aerospace engineering, I've always been driven by a love fo
 
 ---
 
-## 🛠 My Mission
-I'm on a journey to master the art of **data engineering**, building robust pipelines, scalable architectures, and efficient workflows to transform raw data into actionable insights. Alongside this, I delve into **machine learning** to create predictive models and explore cutting-edge **generative AI** technologies.
-
----
-
 ## 🌟 Featured Projects
 Here are some of the projects that showcase my learning and work:
 - [Air Ambulance Optimization](https://github.com/yourusername/air-ambulance)  
