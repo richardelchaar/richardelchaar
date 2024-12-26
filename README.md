@@ -1,6 +1,6 @@
 # I'm Richard, welcome to my GitHub profile!
 
-🚀 **Aerospace Engineer Turned Data Enthusiast** 🌌  
+## 🚀 **Aerospace Engineer Turned Data Enthusiast** 🌌  
 With a background in aerospace engineering, I've always been driven by a love for solving complex problems and uncovering insights from technical systems.
 
 ---
@@ -40,6 +40,14 @@ Here are some of the projects that showcase my learning and work:
 - **Cloud Services:** AWS (Lambda, S3, Redshift, SageMaker, ECS, Bedrock)
 - **Containerization & Deployment:** Docker, Kubernetes
 - **Big Data Tools:** Databricks, Apache Spark
+
+---
+
+## 🎓 Certifications
+
+- AWS Certified Cloud Practitioner
+- Azure Data Fundamentals
+- Databricks Certified Data Engineer Associate
 
 ---
 
