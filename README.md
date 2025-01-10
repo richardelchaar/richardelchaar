@@ -19,7 +19,8 @@ Here are some of the projects I've worked on so far, more to come!
   A real-time drone monitoring and analysis system that streams telemetry data, performs on-the-fly analysis, and visualizes insights. This Dockerized pipeline was built using Kafka for data streaming, Spark for processing, Cassandra for low latency data storage and real-time dashboards powered by Grafana.
 - [Predicting Police Bias](https://github.com/richardelchaar/predicting-police-bias)  
   Predicting systemic disparities in NYC law enforcement using stop-and-frisk data and financial metrics. Supervised ML models like Logistic Regression and Gradient Boosting uncover patterns of bias, driving actionable insights for equity.
-
+- [Airline Database Management System](https://github.com/richardelchaar/airline-SQL-database)  
+    Enhancing Air Canada's operational efficiency and customer experience through streamlined flight bookings, check-ins, and data-driven decision-making.
 ---
 
 ## 🛠 Tools & Technologies I've had the opportunity of working with:
