@@ -1,54 +1,94 @@
-# I'm Richard, welcome to my GitHub profile!
 
-## 🚀 **Aerospace Engineer Turned Data Enthusiast** 🌌  
-With a background in aerospace engineering, I worked on solving intricate problems and optimizing complex systems; skills that naturally led me to data engineering. Now, I’m applying that same mindset to design scalable pipelines and transform raw data into meaningful insights.
+# I'm Richard. Welcome to my Portfolio!
 
----
+My background in aerospace engineering trained me to solve complex problems with a first-principles, systems-level mindset. I've carried that same rigorous approach into the field of machine learning, where my focus is on bridging the gap between cutting-edge AI concepts and tangible business value.
 
-## 🛠 My Mission
+I don't just build models; I engineer end-to-end solutions. My work spans the full ML lifecycle, from architecting scalable data infrastructure to deploying intelligent, automated systems that drive measurable impact.
 
-I’m focused on mastering data engineering, creating dependable pipelines, scalable systems, and streamlined workflows to turn raw data into practical insights. Alongside this, I’m exploring machine learning to build and deploy predictive models and experimenting with generative AI to push the boundaries of what data can do.
+-----
 
----
+## 🌟 Featured Architectures
 
-## 🌟 Featured Projects
-Here are some of the projects I've worked on so far, more to come!
-- [Featback](https://github.com/richardelchaar/featback)  
-  The Feature-Level Product Review Analysis Tool. An end-to-end batch data processing pipeline using AWS services, GPT LLM, Airflow and Docker
-- [Drone Telemetry Streaming](https://github.com/richardelchaar/drone-telemetry-streaming)  
-  A real-time drone monitoring and analysis system that streams telemetry data, performs on-the-fly analysis, and visualizes insights. This Dockerized pipeline was built using Kafka for data streaming, Spark for processing, Cassandra for low latency data storage and real-time dashboards powered by Grafana.
-- [Predicting Police Bias](https://github.com/richardelchaar/predicting-police-bias)  
-  Predicting systemic disparities in NYC law enforcement using stop-and-frisk data and financial metrics. Supervised ML models like Logistic Regression and Gradient Boosting uncover patterns of bias, driving actionable insights for equity.
-- [Airline Database Management System](https://github.com/richardelchaar/airline-SQL-database)  
-    Enhancing Air Canada's operational efficiency and customer experience through streamlined flight bookings, check-ins, and data-driven decision-making.
----
+Here are the blueprints for some of the primary systems I've designed and built.
 
-## 🛠 Tools & Technologies I've had the opportunity of working with:
+### [Advertis: The Anti-Ad Ad Platform](https://github.com/richardelchaar/advertis-platform)
 
-### Programming Languages:
-- Python, SQL, C++, Java
+> What if you could monetize a chatbot *without* annoying users? This microservices platform re-imagines AI advertising by transforming ads into narrative enhancements. Instead of disruptive pop-ups, an AI "Creative Committee" injects context-aware product placements that genuinely enrich the conversation. It's powered by a **multi-agent workflow (LangGraph)** that uses **RAG from a ChromaDB vector store** to cast the perfect product for the scene, a **FastAPI/Redis backend** for high-performance checks, and a **modular SDK** for one-line integration into any conversational app.
 
-### Data Engineering & Workflow Management:
-- **Tools & Frameworks**: Apache Airflow, Kafka, Spark, Pandas
-- **Data Storage & Databases:** MySQL, Cassandra
-- **Cloud Services:** AWS (Lambda, S3, Redshift, SageMaker, ECS, Bedrock, Quicksight), Azure (Azure Data Factory, Azure Databricks,Azure Data Lake, Synapse Analytics, PowerBI)
-- **Containerization:** Docker
+-----
 
-### Generative AI & Machine Learning:
-- **Generative AI:** Bedrock deployment of Claude Sonnet LLM, Amazon Titan Image Generator and OpenAI API deployment of gpt-4o-mini
-- **Machine Learning Models:** Supervised Learning (Linear & Polynomial Regression, Random Forests, Gradient Boosting, ANN), Unsupervised Learning (K-means, and Hierarchical Clustering Methods)
+### [AttritionGuard: The AI HR Strategist](https://github.com/richardelchaar/Employee-Attrition-MLOps)
 
----
+> This platform goes beyond simply predicting *who* might leave; it uses a dual-core AI system to simulate the causal impact of retention strategies, answering the critical "what-if" questions for HR leaders. It's a proactive tool for data-driven talent management. My team and I engineered a self-healing, **end-to-end MLOps pipeline** built on **GitHub Actions** for CI/CD. It features an automated monitoring loop with **Evidently** that detects data drift and **automatically triggers model retraining and validation**, all served via **Dockerized microservices**.
 
-## 🎓 Certifications
+-----
 
-- Azure Data Fundamentals
-- Databricks Certified Data Engineer Associate
-- Georgia Tech 1331x: Introduction to Object Oriented Programming with Java
+### [Featback: The Corporate Mind-Reader](https://github.com/richardelchaar/featback)
 
----
+> This system translates the chaotic, unstructured "voice of the customer" from sources like Reddit into a structured, strategic asset. It moves beyond simple sentiment analysis to perform **Aspect-Based Emotion Analysis**, extracting not just *what* feature users are talking about, but the specific *emotion* and *root cause* behind their feedback. This is an **AI-powered ETL pipeline** orchestrated by **Airflow**, running a weekly job to pull data, process it via an LLM, and load structured Parquet files from **S3 into a Redshift data warehouse**, with all cloud infrastructure managed as code with **Terraform**.
+
+-----
+
+## 🔬 Some Other Projects
+
+This is a selection of projects exploring core ML concepts and specialized data systems.
+
+  * [Drone Telemetry Data Streaming Framework](https://github.com/richardelchaar/drone-telemetry-streaming)
+
+    > Engineered a real-time data pipeline to process high-throughput drone telemetry, using a modern streaming stack **(Kafka, Spark Streaming, Cassandra)** to provide a foundation for live analytics and anomaly detection models.
+
+  * [Multi-class Text Classification with Transformers](https://github.com/richardelchaar/Transformers-text-classification)
+
+    > A deep dive into deploying modern NLP classifiers. I fine-tuned **BERT** on the **20 Newsgroups** dataset, then went beyond training to analyze its predictions with **LIME** and package it for production by exporting the model to **ONNX** and benchmarking its CPU inference speed.
+
+  * [Unmasking Bias in Law Enforcement](https://github.com/richardelchaar/predicting-police-bias)
+
+    > A data science project for social good that merges NYPD records with financial data to train a model predicting unjustified police actions. Used **feature importance analysis** to provide a quantitative tool for equity-focused reform.
+
+  * [CIFAR-10/100 Image Classification with Compact ResNets](https://github.com/richardelchaar/ResNet9-image-classification)
+
+    > A systematic ablation study on CNNs, demonstrating through rigorous experimentation that optimized training strategies and regularization can allow a compact **ResNet-9** to outperform a deeper model on a constrained budget.
+
+  * [Shakespearean Text Generation with RNNs](https://github.com/richardelchaar/RNN-text-generation)
+
+    > A foundational deep dive into sequence modeling. Implemented and benchmarked **LSTMs, GRUs, and vanilla RNNs** to compare architectures, training methods (Teacher Forcing), and generation techniques (Temperature Sampling vs. Beam Search).
+
+-----
+
+## 🛠️ My Core Competencies & Tech Stack
+
+### Languages & Data Manipulation
+
+  * **Python** (Pandas, NumPy, PySpark), **SQL**, Java, C++
+
+### Machine Learning & AI
+
+  * **Core ML:** Supervised & Unsupervised Learning, Causal Inference, Time-Series
+  * **Generative AI:** RAG, Agentic AI, LLMs & Prompt Engineering (LangChain, LangGraph)
+  * **Frameworks:** PyTorch, Scikit-Learn, SHAP, LIME
+
+### Data Platforms & MLOps
+
+  * **Cloud:** **Azure** (Azure ML, Databricks, Data Factory, Synapse), **AWS** (SageMaker, S3, Redshift)
+  * **Tooling:** **MLflow**, **Airflow**, **Docker**, FastAPI, Delta Lake, Git, ChromaDB, ONNX
+  * **Streaming:** Kafka, Spark Streaming
+
+### Visualization & BI
+
+  * **Power BI**, **Google Looker Studio**, Streamlit
+
+-----
+
+## 🎓 Education & Certifications
+
+  * **Master of Management in Analytics** @ McGill University
+  * **Bachelor of Engineering, Aerospace Engineering** @ Concordia University
+  * **Microsoft Certified:** Azure Data Fundamentals
+  * **Georgia Tech:** Intro to OOP with Java, Data Structures & Algorithms
+
+-----
 
 ## 📫 Let’s Connect
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [Email](mailto:richard.elchaar@mail.mcgill.ca)
 
+  * [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/richard-el-chaar-557ba8180/)
+  * [Email](mailto:richard.elchaar@mail.mcgill.ca)
