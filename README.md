@@ -13,7 +13,7 @@ Here are the blueprints for some of the primary systems I've designed and built.
 
 ### [Advertis: The Anti-Ad Ad Platform](https://github.com/richardelchaar/advertis-platform)
 
-> What if you could monetize a chatbot *without* annoying users? This microservices platform re-imagines AI advertising by transforming ads into narrative enhancements. Instead of disruptive pop-ups, an AI "Creative Committee" injects context-aware product placements that genuinely enrich the conversation. It's powered by a **multi-agent workflow (LangGraph)** that uses **RAG from a ChromaDB vector store** to cast the perfect product for the scene, a **FastAPI/Redis backend** for high-performance checks, and a **modular SDK** for one-line integration into any conversational app.
+> I built Advertis, a plug-and-play SDK designed to monetize any conversational app by re-imagining advertising. Instead of disruptive pop-ups, it connects to a backend that transforms ads into narrative enhancements that enrich the user's experience. To do this efficiently, I engineered a two-stage FastAPI microservice: a high-speed gatekeeper endpoint uses Redis for millisecond-fast safety and pacing checks, ensuring the expensive AI is only used on high-quality opportunities. If approved, the request is passed to the AI Creative Engine, a LangGraph multi-agent workflow that uses RAG to intelligently weave the perfect product placement into the conversation.
 
 -----
 
