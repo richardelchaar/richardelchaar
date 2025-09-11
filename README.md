@@ -13,19 +13,25 @@ Here are the blueprints for some of the primary systems I've designed and built.
 
 ### [Advertis: The Anti-Ad Ad Platform](https://github.com/richardelchaar/advertis-platform)
 
-> I built Advertis, a plug-and-play SDK designed to monetize any conversational app by re-imagining advertising. Instead of disruptive pop-ups, it connects to a backend that transforms ads into narrative enhancements that enrich the user's experience. To do this efficiently, I engineered a two-stage FastAPI microservice: a high-speed gatekeeper endpoint uses Redis for millisecond-fast safety and pacing checks, ensuring the expensive AI is only used on high-quality opportunities. If approved, the request is passed to the AI Creative Engine, a LangGraph multi-agent workflow that uses RAG to intelligently weave the perfect product placement into the conversation.
+Advertis is a monetization platform for conversational AI that replaces traditional, disruptive ads with seamless, narrative-first product placements. It uses a sophisticated multi-agent system to analyze the conversation's context and creatively weave in relevant products, turning a potential cost center into a revenue generator while enhancing user immersion.
+
+**Tools Used: LangGraph, RAG, ChromaDB, FastAPI, Redis, Docker, Pytest, Streamlit, PostgreSQL.**
 
 -----
 
 ### [AttritionGuard: The AI HR Strategist](https://github.com/richardelchaar/Employee-Attrition-MLOps)
 
-> This platform goes beyond simply predicting *who* might leave; it uses a dual-core AI system to simulate the causal impact of retention strategies, answering the critical "what-if" questions for HR leaders. It's a proactive tool for data-driven talent management. My team and I engineered a self-healing, **end-to-end MLOps pipeline** built on **GitHub Actions** for CI/CD. It features an automated monitoring loop with **Evidently** that detects data drift and **automatically triggers model retraining and validation**, all served via **Dockerized microservices**.
+AttritionGuard is a full-stack MLOps platform designed to predict employee attrition and simulate the effectiveness of various retention strategies. It moves beyond simple prediction by using causal inference to answer "what-if" questions for HR leaders. The system is built on a fully autonomous pipeline that automatically monitors for data drift and triggers model retraining and redeployment without human intervention.
+
+**Tools Used: scikit-learn, MLFlow, GitHub Actions, Evidently Drift Detection, SHAP, Causal Inference, FastAPI, Streamlit, Docker, Azure SQL DB.**
 
 -----
 
 ### [Featback: The Corporate Mind-Reader](https://github.com/richardelchaar/featback)
 
-> This system translates the chaotic, unstructured "voice of the customer" from sources like Reddit into a structured, strategic asset. It moves beyond simple sentiment analysis to perform **Aspect-Based Emotion Analysis**, extracting not just *what* feature users are talking about, but the specific *emotion* and *root cause* behind their feedback. This is an **AI-powered ETL pipeline** orchestrated by **Airflow**, running a weekly job to pull data, process it via an LLM, and load structured Parquet files from **S3 into a Redshift data warehouse**, with all cloud infrastructure managed as code with **Terraform**.
+Featback is an automated product intelligence platform that uses Generative AI to perform deep analysis on unstructured customer reviews. Instead of basic sentiment scores, it performs Aspect-Based Emotion Analysis—extracting the specific product feature, the user's emotion, and the root cause behind their feedback. This transforms chaotic text into a structured, actionable dataset for product teams.
+
+**Tools Used: Airflow, AWS (S3, Redshift, QuickSight), LLMs, Terraform, Docker.**
 
 -----
 
