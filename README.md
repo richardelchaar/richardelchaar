@@ -41,7 +41,7 @@ This is a selection of projects exploring core ML concepts and specialized data 
 
   * [Drone Telemetry Data Streaming Framework](https://github.com/richardelchaar/drone-telemetry-streaming)
 
-    > Engineered a real-time data pipeline to process high-throughput drone telemetry, using a modern streaming stack **(Kafka, Spark Streaming, Cassandra)** to provide a foundation for live analytics and anomaly detection models.
+    > Engineered a real-time data pipeline to process high-throughput drone telemetry, using a modern streaming stack **(Kafka, Spark Streaming, Cassandra)** to provide a foundation for live analytics.
 
   * [Multi-class Text Classification with Transformers](https://github.com/richardelchaar/Transformers-text-classification)
 
